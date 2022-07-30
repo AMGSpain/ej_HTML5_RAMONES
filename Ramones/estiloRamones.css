@@ -1,0 +1,105 @@
+/*Tipografia*/
+*{
+    font-family: 'Raleway', sans-serif;
+}p{
+    font-family: "Life Savers", sans-serif;
+    font-size: 1.3rem;
+}h1, h2, h3, h4{
+    margin: 0;
+    text-align: center;
+}h1{
+    font-size: 15vw;
+}h2{
+    font-size: 3rem;
+}h3{
+    font-size: 1.8rem;
+    color: #A60D1A;
+}h4{
+    font-size: 6rem;
+}
+
+/*Estructura*/
+
+*{
+   box-sizing: border-box; 
+}body{
+    background: #f0f0f0;
+
+}.anchototal{
+    background: no-repeat top center;
+    background-color: grey;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 2px 6px black;
+    padding: 20px;
+
+}.contenedor{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}.mitad{
+    float: left;
+    width: 50%;
+    padding: 20px;
+
+}.tercio1{
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+}.tercio2{
+    float: left;
+    width: 66.6%;
+    padding: 20px;
+}img, video{
+    width: 100%;
+    border-radius: 5px;
+}.redonda{
+    border-radius: 50%;
+}.parallax{
+    background-attachment: fixed;
+}
+
+/*Elementos*/
+
+header{
+    background-image: url("header.jpg") !important;
+    height: 100vh;
+    padding-top: 60vh !important;
+}#gris{
+    background-image: url("gris.jpg");
+    padding-top: 30vh;
+}#color{
+    background-image: url("color.jpg");
+    padding-top: 30vh;
+}#baterias p{
+    text-align: center;
+}footer{
+    background-image: url("cuatro.jpg") !important;
+    padding: 40vh !important;
+}footer h3{
+    color: white;     
+}.columnas{
+    column-count: 2;
+    padding-left: 50px;
+}
+
+/*Barra de Navegación*/
+
+nav{
+    background: #A60D1A !important;
+    padding: 5px !important;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 5px 20px;
+    
+}nav a:hover{
+    background-color: black;
+}
+
